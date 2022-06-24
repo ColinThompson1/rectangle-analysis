@@ -22,8 +22,8 @@ Finally, just follow the prompts
 
 ### Assumptions
 
-Rectangles are parallel with respect to x and y axis.
-A contained rectangle also qualifies as intersection.
+- Rectangles are parallel with respect to x and y axis.
+- A contained rectangle also qualifies as intersection.
 
 ### Libraries
 
