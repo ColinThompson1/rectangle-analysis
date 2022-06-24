@@ -6,59 +6,70 @@ import {
   rectangleHasIntersection,
 } from "./algorithms";
 
-const validate = (value) =>
-  value < 0 || value > Number.MAX_SAFE_INTEGER
-    ? "Number must be an integer >= 0"
-    : false;
-
 const questions = [
   {
     type: "number",
     name: "r1x1",
     message: "Rectangle 1: top left x",
-    validate,
+    min: 0,
+    max: Number.MAX_SAFE_INTEGER,
+    default: 0,
   },
   {
     type: "number",
     name: "r1y1",
     message: "Rectangle 1: top left y",
-    validate,
+    min: 0,
+    max: Number.MAX_SAFE_INTEGER,
+    default: 0,
   },
   {
     type: "number",
     name: "r1x2",
     message: "Rectangle 1: bottom left x",
-    validate,
+    min: 0,
+    max: Number.MAX_SAFE_INTEGER,
+    default: 0,
   },
   {
     type: "number",
     name: "r1y2",
     message: "Rectangle 1: bottom left y",
-    validate,
+    min: 0,
+    max: Number.MAX_SAFE_INTEGER,
+    default: 0,
   },
   {
     type: "number",
     name: "r2x1",
     message: "Rectangle 2: top left x",
-    validate,
+    min: 0,
+    max: Number.MAX_SAFE_INTEGER,
+    default: 0,
   },
   {
     type: "number",
     name: "r2y1",
     message: "Rectangle 2: top left y",
-    validate,
+    min: 0,
+    max: Number.MAX_SAFE_INTEGER,
+    default: 0,
   },
   {
     type: "number",
     name: "r2x2",
     message: "Rectangle 2: bottom left x",
-    validate,
+    min: 0,
+    max: Number.MAX_SAFE_INTEGER,
+    default: 0,
   },
   {
     type: "number",
     name: "r2y2",
     message: "Rectangle 2: bottom left y",
-    validate,
+    min: 0,
+    max: Number.MAX_SAFE_INTEGER,
+    default: 0,
   },
 ];
 
